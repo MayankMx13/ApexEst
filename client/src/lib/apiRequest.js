@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const apiRequest = axios.create({
-  baseURL: import.meta.env.SERVER_URL,
+  baseURL: "https://api-five-snowy.vercel.app/api",
   withCredentials: true,
 });
 
