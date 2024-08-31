@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const apiRequest = axios.create({
-  baseURL: "https://apexest.onrender.com/api",
+  baseURL: import.meta.env.SERVER_URL,
   withCredentials: true,
 });
 
